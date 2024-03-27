@@ -1,0 +1,8 @@
+.line{
+    width: 320px;
+    height: 47px;
+    border-top: 1px solid gray;
+    position: absolute;
+    margin-top: 2%;
+    
+}
