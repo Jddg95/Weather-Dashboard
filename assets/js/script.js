@@ -13,6 +13,9 @@ function getAPI() {
     })
     .then(function (data) {
         console.log(data);
+        //storing returned data into local storage 
+        localStorage.setItem('weatherData', JSON.stringify(data));
+        console.log('Weather data saved to local storage');
     })
 }
 searchButton.addEventListener('click', getAPI);
